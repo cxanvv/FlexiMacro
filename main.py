@@ -257,7 +257,6 @@ def PropChange(action_selected_index,action,prop,cmdtype=None,change=None,inpobj
     PropsLB.delete(propslb_index)
     PropsLB.insert(propslb_index,f'{prop} = {ActionTask[prop]}')
     taskframe.itemconfig(action_selected_index,foreground=templates.GetTaskFrameTxtColor(action))
-    print(TaskStructure)
 
 def EditProp(propslist,action_selected_index,action):
     global Validate_Reg
