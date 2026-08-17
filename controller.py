@@ -32,6 +32,7 @@ def run_task(flow,loop=False):
                 Repeats[-1][1] -= 1
                 if Repeats[-1][1] == 0: 
                     Repeats.pop(-1)
+                    i += 1
                     continue
                 i = Repeats[-1][0]
                 continue
