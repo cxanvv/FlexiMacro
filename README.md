@@ -27,7 +27,7 @@
 
 ### Main Interface
 
-![FlexiMacro main interface](screenshots/main-interface.png)
+![FlexiMacro main interface](screenshots/main_interface.png)
 
 ### Command Configuration
 
